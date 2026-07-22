@@ -1,0 +1,74 @@
+**********CHEAT SHEETS*****************
+
+
+7.4 Fortinet:
+https://docs.fortinet.com/document/fortigate/7.4.0/cli-troubleshooting-cheat-sheet/420966/cli-troubleshooting-cheat-sheet#CLI_troubleshooting_cheat_sheet
+https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/attachments/5f000f73-5419-11ee-8e6d-fa163e15d75b/FortiOS-7.4-Troubleshooting_Cheat_Sheet.pdf
+
+7.2 Boll
+https://blog.boll.ch/wp-content/uploads/2022/11/CheatSheet-FortiOS-7.2-v1.0.pdf
+
+
+****CONNECTIVITY TROUBLESHOOTING********
+
+Diagnose sniffer
+https://help.fortinet.com/fa/cli-olh/5-6-1/Document/1600_diagnose/sniffer.htm
+
+Troubleshooting Tip: First steps to troubleshoot connectivity problems to or through a FortiGate with sniffer, debug flow, session list, routing table
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-First-steps-to-troubleshoot-connectivity/ta-p/192560
+
+Troubleshooting Tip: Confirming client and server communication works as expected (FortiGate passing the traffic)
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-Confirming-client-and-server-communication/ta-p/216798
+
+Troubleshooting Tip: FortiGate session table information
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-FortiGate-session-table-information/ta-p/196988?externalId=FD30042
+
+Debugging the packet flow
+https://docs.fortinet.com/document/fortigate/7.2.3/administration-guide/54688/debugging-the-packet-flow
+
+Technical Tip: Link monitor
+https://community.fortinet.com/t5/FortiGate/Technical-Tip-Link-monitor/ta-p/197504
+
+
+****AUTHENTICATION TROUBLESHOOTING******
+
+Authentication settings
+https://docs.fortinet.com/document/fortigate/7.4.1/administration-guide/709376/authentication-settings
+
+Technical Tip: Using logon name for the LDAP authentication
+https://community.fortinet.com/t5/FortiGate/Technical-Tip-Using-logon-name-for-the-LDAP-authentication/ta-p/197731
+
+sAMAccountName
+diagnose test authserver ldap "LDAP SERVER" user1 password 
+
+diagnose debug disable
+diagnose debug reset
+diagnose debug console timestamp enable
+diagnose debug enable
+diagnose debug application fnbamd -1
+
+Troubleshooting Tip: Fortigate LDAP
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-Fortigate-LDAP/ta-p/196280
+
+Technical Tip: Troubleshooting FortiOS authentication issues
+https://community.fortinet.com/t5/FortiGate/Technical-Tip-Troubleshooting-FortiOS-authentication-issues/ta-p/190282
+
+
+**********WEB FILTER TROUBLESHOOTING************
+Troubleshooting Tip: Verify the webfilter cache content
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-Verify-the-webfilter-cache-content/ta-p/196830
+
+Troubleshooting Tip: WEB filtering rating problems when using FortiGuard rating by IP and URL
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-WEB-filtering-rating-problems-when-using/ta-p/195536
+
+*********SSL-VPN TROUBLESHOOTING**************
+
+Troubleshooting Tip: SSL VPN Troubleshooting
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-SSL-VPN-Troubleshooting/ta-p/189542
+
+****IPSEC VPN TROUBLESHOOTING***********
+Troubleshooting Tip: Troubleshooting IPsec Site-to-Site Tunnel Connectivity
+ 
+
+Troubleshooting Tip: IPsec VPNs tunnels
+https://community.fortinet.com/t5/FortiGate/Troubleshooting-Tip-IPsec-VPNs-tunnels/ta-p/195955
